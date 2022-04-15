@@ -14,7 +14,7 @@
         <img class="logo" src="img/braun-logo.png" alt="Braun company logo.">
         <div class="display">
             <div class="screen">
-                <div class="numbers">123456789.</div>
+                <div class="numbers">0</div>
             </div>
         </div>
         <div class="power-buttons">
@@ -31,39 +31,41 @@
         </div>
         <div class="calc-buttons">
             <div class="button-row">
-                <button class="green">M+</button>
-                <button class="green">M-</button>
-                <button class="green">MR</button>
-                <button class="green">MC</button>
-                <button class="green"><sup>+</sup>&frasl;<sub>-</sub></button>
+                <button class="green memory" value="M+">M+</button>
+                <button class="green memory" value="M-">M-</button>
+                <button class="green memory" value="MR">MR</button>
+                <button class="green memory" value="MC">MC</button>
+                <button class="green operator single" value="negate">
+                    <sup>+</sup>&frasl;<sub>-</sub>
+                </button>
             </div>
             <div class="button-row">
-                <button class="brown">Δ%</button>
-                <button class="black">7</button>
-                <button class="black">8</button>
-                <button class="black">9</button>
-                <button class="brown">÷</button>
+                <button class="brown operator" value="delta-percent">Δ%</button>
+                <button class="black digit" value="7">7</button>
+                <button class="black digit" value="8">8</button>
+                <button class="black digit" value="9">9</button>
+                <button class="brown operator" value="divide">÷</button>
             </div>
             <div class="button-row">
-                <button class="brown">√</button>
-                <button class="black">4</button>
-                <button class="black">5</button>
-                <button class="black">6</button>
-                <button class="brown">x</button>
+                <button class="brown operator single" value="sqrt">√</button>
+                <button class="black digit" value="4">4</button>
+                <button class="black digit" value="5">5</button>
+                <button class="black digit" value="6">6</button>
+                <button class="brown operator" value="multiply">x</button>
             </div>
             <div class="button-row">
-                <button class="brown">%</button>
-                <button class="black">1</button>
-                <button class="black">2</button>
-                <button class="black">3</button>
-                <button class="brown">-</button>
+                <button class="brown operator single" value="percent">%</button>
+                <button class="black digit" value="1">1</button>
+                <button class="black digit" value="2">2</button>
+                <button class="black digit" value="3">3</button>
+                <button class="brown operator" value="minus">-</button>
             </div>
             <div class="button-row">
-                <button class="brown">CE<br/>C</button>
-                <button class="black">0</button>
-                <button class="brown">.</button>
-                <button class="yellow">=</button>
-                <button class="brown">+</button>
+                <button class="brown clear" value="clear">CE<br/>C</button>
+                <button class="black digit" value="0">0</button>
+                <button class="brown decimal" value=".">.</button>
+                <button class="yellow equals" value="equals">=</button>
+                <button class="brown operator" value="plus">+</button>
             </div>
         </div>
     </div>
