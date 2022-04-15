@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 body,
 .screen {
     background-color: #ABABAB;
@@ -172,4 +178,10 @@ button:hover {
 .yellow:active {
     background-color: #c3b568;
     box-shadow: none;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 10px;
+    font-size: 15px;
 }
